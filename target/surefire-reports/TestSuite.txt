@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 29.491 s <<< FAILURE! - in TestSuite
+createNewAccountTest(com.demo.tests.CreateNewAccountTest)  Time elapsed: 22.185 s  <<< FAILURE!
+java.lang.AssertionError: The error is not matching expected [Too many users have this phone number listed as pending.] but found [Too many users have this phone number listed as pending.3344]
+	at com.demo.tests.CreateNewAccountTest.createNewAccountTest(CreateNewAccountTest.java:28)
+
